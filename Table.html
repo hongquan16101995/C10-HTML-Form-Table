@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <!--    <link rel="stylesheet" href="Table.css">-->
+    <style>
+        table {
+            width: 500px;
+            height: 300px;
+            /*font-family: "Franklin Gothic Book";*/
+        }
+
+        table, tr, td, th {
+            border: 1px solid;
+            border-collapse: collapse;
+        }
+
+        th {
+            width: 25%;
+        }
+
+        #th1 {
+            background-color: blue;
+        }
+
+        .th2 {
+            background-color: red;
+        }
+    </style>
+</head>
+<body>
+<table>
+    <tr>
+        <th id="th1">C1021H1</th>
+        <th class="th2">Tôi tên là Quân</th>
+        <th></th>
+        <th class="th2" id="th3"></th>
+    </tr>
+    <tr>
+        <td>C1021H1</td>
+        <td colspan="2"></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td rowspan="2"></td>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+</table>
+</body>
+</html>
